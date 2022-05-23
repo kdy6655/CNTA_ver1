@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>임병우의 실체</title>
+    <link rel="shortcut icon" href="img/cat_favicon.ico">
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="write.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <style>
+        #comment-btn {
+            display: none;
+        }
+        #comment-btn:checked ~ .comment{display: block;}
+        .comment {display: none;}
+    </style>
+</head>
+
+<body>
+    <div class="card text-center">
+        <div class="card-header">
+            <h2>임병우의 실체</h2>
+        </div>
+        <div class="card-body">
+            <tr>
+                <td bgcolor=white>
+                    <table class="table2">
+                        <tr>
+                            <td>작성자</td>
+                            <td><input type="hidden" name="name">임병우</td>
+                        </tr>
+                        <tr class="card-title">
+                            <td>제목</td>
+                            <td>임병우의 실체</td>
+                        </tr>
+                        <tr class="card-title">
+                            <td>첨부파일</td>
+                            <td><a href="#">임병우의 실체.hwp</a></td>
+                        </tr>
+                           <tr class="card-text">
+                                <td>내용</td>
+                                <td>
+                                	<div style="width: 600px; height: 300px;">
+                                		<p>
+                                		응애	
+                                		</p>
+                                	</div>
+                                </td>
+                            </tr>
+                                <!-- 비밀번호 입력란 제거 -->
+                            </table>
+                        </td>
+                    </tr>
+          </div>
+        <center>
+            <button class="btn btn-danger" type="submit">
+            뒤로 가기
+            </button>
+        </center>
+        <br>
+        <br>
+        <details>
+            <summary>
+                <div class="card-header bg-light" style="margin-top: -10px;">
+                    <input id="comment-btn" type="checkbox">
+                    <i for="comment-btn" class="fa fa-comment fa">▼ 댓글 ▼
+                    </i>
+                </div>
+            </summary>
+              <!-- 댓글 나오는거 html -->
+              <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="page-header"></div>
+                        <div class="comments-list">
+                            <div class="media">
+                                <br>
+                                <p class="pull-right"><small>올린 시간 : 2021-09-30</small></p>
+                                <a class="media-left" href="#"></a>
+                                <div class="media-body">
+                                    <br>
+                                    <h5 class="media-heading user_name">박준우</h5>
+                                <br>
+                                <!-- 댓글 내용 -->
+                                <p style="text-align:left;">
+                                <h6 style="text-align:left;">내용 : </h6>
+                                    testestestestesetse</p>
+                                    <button style="float: right; border:2px solid;" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </details>
+        <div class="card mb-2">
+	<div class="card-body">
+		<ul class="list-group list-group-flush">
+		    <li class="list-group-item">
+				<textarea class="form-control" id="exampleFormControlTextarea1" style="width: 500px;"  rows="5"></textarea>
+				<button type="button" class="btn btn-dark mt-3">댓글달기</button>
+		    </li>
+		</ul>
+	</div>
+</div>
+</div>
+</body>
+
+</html>

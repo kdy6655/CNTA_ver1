@@ -1,0 +1,22 @@
+p {
+    font-size: 25px;
+    text-align: center;
+}
+table .even {
+    background: #efefef;
+}
+.text {
+    text-align: center;
+    padding-top: 20px;
+    color: #000000;
+}
+.text:hover {
+    text-decoration: underline;
+}
+a:link {
+    color: #57A0EE;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
